@@ -1,3 +1,5 @@
+
+
 PN2的解析实现
 
 target/in progress：python
@@ -6,18 +8,21 @@ target.todo：rust, elixir, F#, typescript/haxe, java/scala/kotlin
 
 PN2语法借鉴：APL/K/Q、Forth、erlang
 
+>fast ring: https://github.com/absente/C8
 
 for example/1：
 >code main.c`rs
 ```
 rs)
 main ->
- `print "hello"
+ `println "hello"
+ 输出{ok}
 ```
 >elixir c8/comp.exs main.c`rs
 ```rust
 fn main(){
-  print!("hello");
+  println!("hello");
+  println!("ok");
 }
 ```
 
@@ -51,7 +56,7 @@ main.ex, main.rs与之类似
 
 roadmap
 -------
- 
+ - REPL=C8R
  - py web框架/django/pyramid; 必要+充分
  - py爬虫
  - elixir
