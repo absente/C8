@@ -9,6 +9,7 @@ target.todo：rust, elixir, F#, typescript/haxe, java/scala/kotlin
 PN2语法借鉴：APL/K/Q、Forth、erlang
 
 >fast ring: https://github.com/absente/C8
+>slow ring: https://github.com/program-in-chinese/C8
 
 for example/1：
 >code main.c`rs
