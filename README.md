@@ -4,7 +4,7 @@ PN2的解析实现
 
 target/in progress：python
 
-target.todo：rust, elixir, F#, typescript/haxe, java/scala/kotlin
+target.todo：rust, elixir, F#, typescript/haxe, J https://github.com/program-in-chinese/C8/issues/2
 
 PN2语法借鉴：APL/K/Q、Forth、erlang
 
